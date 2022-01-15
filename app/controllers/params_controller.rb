@@ -7,7 +7,7 @@ class ParamsController < ApplicationController
   end
 
   def show
-    render json: params[:phrase].upcase.as_json
+    render json: {message: params[:phrase].upcase }
   end
   
 end

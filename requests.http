@@ -1,0 +1,6 @@
+POST http://localhost:3000/params
+Content-Type: application/json
+
+{
+  "phrase": "This is a phrase from the body of a post."
+}
